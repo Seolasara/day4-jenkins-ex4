@@ -1,6 +1,6 @@
 node {
     // ✅ 환경 변수 설정
-    env.PATH = "/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
+    env.PATH = "/Users/Sara/.nvm/versions/node/v22.20.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 
     try {
         stage('Checkout') {
