@@ -10,7 +10,7 @@ node {
 
         stage('Install') {
             // 의존성 설치
-            sh 'npm install'
+            sh 'npm installs'
         }
 
         stage('Test') {
